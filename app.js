@@ -1,0 +1,12 @@
+// Firebase Config (بيانات مشروعك جاهزة)
+const firebaseConfig = {
+  apiKey: "AIzaSyDFMtEB6OuvcftNTtDBiboO6JyQRuYh7Lo",
+  authDomain: "souq-draw.firebaseapp.com",
+  databaseURL: "https://souq-draw-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "souq-draw",
+  storageBucket: "souq-draw.firebasestorage.app",
+  messagingSenderId: "73418643089",
+  appId: "1:73418643089:android:2e59a9af77fe759074d130"
+};
+firebase.initializeApp(firebaseConfig);
+const db = firebase.database();
